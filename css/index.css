@@ -1,0 +1,39 @@
+body{
+	background: #D5D5D5;
+}
+
+
+.input1{
+	background: white;
+	border: 1px solid black;
+	width: 200px;
+	height: 25px;
+	display: block;
+	margin-top: 300px;
+	margin-left: 500px;
+	padding: 5px;
+	box-shadow: 3px 3px 6px #636363;
+}
+.input2{
+	background: white;
+	border: 1px solid black;
+	width: 200px;
+	height: 25px;
+	display: block;
+	margin-top: 10px;
+	margin-left: 500px;
+	padding: 5px;
+    box-shadow: 3px 3px 6px #636363;
+
+
+}
+
+.buttons{
+	background: #3558CF;
+	border: 1px solid black;
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 500px;
+	
+}
