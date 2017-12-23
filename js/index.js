@@ -58,13 +58,12 @@
     document.getElementById('login').appendChild(input2);
 
 // -+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-    var inputSubmit = document.createElement('button');
-    var labels = document.createTextNode("Submit")
-    var inputLabels = inputSubmit.appendChild(labels)
-    inputLabels.type = 'submit';
-    inputLabels.value = 'Submit';
-    //var buton1 = padreLogin.appendChild(inputLabels);
-    document.getElementById('login').appendChild(inputLabels);
+    var button = document.createElement('button');
+    var buttonText = document.createTextNode('Submit');
+    button.appendChild(buttonText);
+    button.setAttribute('class', 'buttons');
+    button.type = 'submit';
+    padreLogin.appendChild(button);
 
 
 
